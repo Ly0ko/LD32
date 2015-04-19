@@ -15,7 +15,7 @@ class Portal extends FlxSprite
   {
     super(X, Y);
 
-    loadGraphic("assets/images/portal.png", 16, 16);
+    loadGraphic("assets/images/portal.png", true, 16, 16);
 
     animation.add("idle", [0]);
     animation.add("active", [0, 1, 2, 3], 3, true);

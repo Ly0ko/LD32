@@ -22,7 +22,7 @@ class Enemy extends FlxSprite
   {
     super(X, Y);
 
-    loadGraphic("assets/images/enemy.png", 16, 32);
+    loadGraphic("assets/images/enemy.png", true, 16, 32);
     animation.add("idle", [0]);
     animation.add("moving", [0, 1, 2], 10, true);
 

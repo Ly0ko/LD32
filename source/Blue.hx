@@ -9,6 +9,6 @@ class Blue extends FlxSprite
   {
     super(X, Y);
 
-    loadGraphic("assets/images/blue.png", 32, 32);
+    loadGraphic("assets/images/blue.png", true, 32, 32);
   }
 }

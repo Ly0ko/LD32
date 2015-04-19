@@ -36,7 +36,7 @@ class Player extends FlxSprite
   {
     super(X, Y);
 
-    loadGraphic("assets/images/player.png", 16, 32);
+    loadGraphic("assets/images/player.png", true, 16, 32);
     animation.add("idle", [0]);
     animation.add("jumping", [8]);
     animation.add("walking", [0, 1, 2, 3, 4, 5, 6, 7], 20, true);
